@@ -4,13 +4,19 @@ Ran environment in hardhat goerli too expensive, sepolia giving problems
 script1:
 
 deploy token contract ; transaction hash: 0xd32296fab1cabfbabc47e0276e5d9e3bc13f78308e291ef14688557a47607c02
+
 mint 10 tokens to acc1 ; transaction hash: 0x136213c681187ae505c45a90212fb5e565a38ac0580bd4200c699de63da9e849
+
 mint 10 tokens to acc1 ; transaction hash: 0x71bf03a433e8cd1754f44a9957482e6ff6e5ea8a02dbc562079be41a7eb0ee85
+
 acc1 self delegation ; transaction hash: 0xe0c08933184088087372bbdd3bced678e7b9d912fe57911d7be086e36133a548
+
 acc2 self delegation ; transaction hash: 0xb872f2d5386afb0710a09a49e186a4d98e5728461eafd18d4611179662ed4c8c 
 
 deploy ballot contract ; transaction hash: 0xfcd9a51b403a1aa2ffea802850c68ba23ec628ceda1e0522de860b0bf74a954d
+
 acc1 vote 6 for strawberry ; transaction hash: 0x7a33abf525e01c90b3ebd0e98d48b6357f82ce642634cf59c0887e36227f9c8e 
+
 acc2 vote 5 for chocolate ; transaction hash: 0x5a76405edacec721882716d4fc66407316567f68e4275bf163d7475186e59355 
 
 script1 output:
@@ -46,15 +52,21 @@ script2:
 
 
 deploy token contract ; transaction hash: 0xd32296fab1cabfbabc47e0276e5d9e3bc13f78308e291ef14688557a47607c02
+
 mint 10 tokens to acc1 ; transaction hash: 0x136213c681187ae505c45a90212fb5e565a38ac0580bd4200c699de63da9e849
+
 mint 10 tokens to acc1 ; transaction hash: 0x71bf03a433e8cd1754f44a9957482e6ff6e5ea8a02dbc562079be41a7eb0ee85
+
 acc1 self delegation ; transaction hash: 0xe0c08933184088087372bbdd3bced678e7b9d912fe57911d7be086e36133a548
+
 acc2 self delegation ; transaction hash: 0xb872f2d5386afb0710a09a49e186a4d98e5728461eafd18d4611179662ed4c8c 
 
 deploy ballot contract ; transaction hash: 0xfcd9a51b403a1aa2ffea802850c68ba23ec628ceda1e0522de860b0bf74a954d
 
 acc2 vote 5 for chocolate; transaction hash: 0xc74f94e46821ce9a7739887adaa551d7a6914ce7404ac09523dcc595553c27e6
+
 acc2 vote 5 for strawberry; transaction hash: 0xb78c1f167a832f10cd6fcc6444da3d1996a2b239eb70256a778c15508c41f107
+
 acc2 vote 5 for vanilla; transaction failed because no more votes for acc2, they were all used
 
 
